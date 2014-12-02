@@ -6245,10 +6245,13 @@ p {
 	background-color:#757575;
 }
 video#bgvid {
-position: fixed; left: 0; top: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-background-size: cover;
+  position: fixed; left: 0; top: 0; 
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  
+  background-size: cover;
+
 }
 .info-block {
 	width:100%;
@@ -6264,7 +6267,6 @@ background-size: cover;
 	height:500px;
 	background-color:rgba(0,0,0,0);
 }
-
 
 
 
